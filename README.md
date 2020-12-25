@@ -1,4 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tic-Tac-Toe Game
+
+This is an interactive tic-tac-toe game with React.
+There is a numbered list to the right of the game’s board which gives you a history of all of the moves that have occurred in the game, and it is updated as the game progresses.
+It is possible to “go back in time” to the previous moves in the game by storing every past version of the game boards and relaying it as a list.
+
+We’ve created a tic-tac-toe game that:
+
+- Lets you play tic-tac-toe,
+- Indicates when a player has won the game,
+- Stores a game’s history as a game progresses,
+- Allows players to review a game’s history and see previous versions of a game’s board.
+
 
 ## Available Scripts
 
