@@ -1,40 +1,46 @@
-## Tic-Tac-Toe Game
-
+# Tic-Tac-Toe Game
+----
 This is an interactive tic-tac-toe game with React.
 There is a numbered list to the right of the game’s board which gives you a history of all of the moves that have occurred in the game, and it is updated as the game progresses.
 It is possible to “go back in time” to the previous moves in the game by storing every past version of the game boards and relaying it as a list.
 
-We’ve created a tic-tac-toe game that:
+### We’ve created a tic-tac-toe game that:
 
 - Lets you play tic-tac-toe,
 - Indicates when a player has won the game,
 - Stores a game’s history as a game progresses,
 - Allows players to review a game’s history and see previous versions of a game’s board.
 
+#### This is how the game looks like :
+----
+[![](tictactoe.gif)](tictactoe.gif)
 
-## Available Scripts
 
+## Installing App
+----
 In the project directory, you can run:
+
+> Make sure you have a recent version of Node.js installed.
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
+Launches the test runner in the interactive watch mode.
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -50,31 +56,36 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
-
+----
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+#### Code Splitting
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+#### Analyzing the Bundle Size
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+#### Making a Progressive Web App
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+#### Advanced Configuration
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+#### Deployment
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
+#### npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+# License
+----
+
+MIT
